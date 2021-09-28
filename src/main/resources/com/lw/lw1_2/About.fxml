@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="63.0" layoutY="14.0" text="Бинарное дерево в массиве">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="13.0" layoutY="44.0" prefHeight="52.0" prefWidth="375.0" text="Программа позволяет визуализировать бинарные деревья, хранящиеся в одномерном массиве. " wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="13.0" layoutY="96.0" prefHeight="86.0" prefWidth="375.0" text="Программа может принимать массивы, записанные в текстовом документе (.txt). В качестве разделителей в документе может использоваться точка, запятая, точка с запятой или пробел." wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="182.0" prefHeight="42.0" prefWidth="375.0" text="Программа написана в рамках лабораторной работы №2 по ТРПО." wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="224.0" prefHeight="17.0" prefWidth="261.0" text="Автор студент гр. АММ-20 Волков Юрий" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="241.0" text="Version 1.0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="264.0" text="История изменений" underline="true" />
+   </children>
+</Pane>
